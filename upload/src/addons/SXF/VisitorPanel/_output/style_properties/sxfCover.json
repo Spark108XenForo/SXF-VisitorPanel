@@ -1,0 +1,18 @@
+{
+    "group_name": "sxfvisitorpanel",
+    "title": "Cover",
+    "description": "",
+    "property_type": "css",
+    "css_components": [
+        "background",
+        "extra"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "background-color": "indigo"
+    },
+    "display_order": 50
+}

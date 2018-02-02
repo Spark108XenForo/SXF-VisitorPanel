@@ -1,9 +1,69 @@
 {
+    "style_prop.sxfCover.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "c795dfff10a7c952f4c5438951e9ece9"
+    },
+    "style_prop.sxfvpCovercolor.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "3f7268d9479924d254750d3bddd6db10"
+    },
+    "style_prop.sxfvpRound.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "b7f41fc1412ad2ee75e9b2635d3b9d5c"
+    },
+    "style_prop.sxfvpStatusColor.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "70b34e42aa15bf20f2595a8be02fafab"
+    },
+    "style_prop_desc.sxfCover.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.sxfvpCovercolor.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.sxfvpRound.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_desc.sxfvpStatusColor.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "style_prop_group.sxfvisitorpanel.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "79f3d5bea32d8879f7f918dacbca18a1"
+    },
+    "style_prop_group_desc.sxfvisitorpanel.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
     "widget_def.sxf_visitorpanel.txt": {
         "global_cache": false,
         "version_id": 1000000,
         "version_string": "1.0.0",
-        "hash": "c57c1461e4ba5bc79b8ea5844b09d758"
+        "hash": "79f3d5bea32d8879f7f918dacbca18a1"
     },
     "widget_def_desc.sxf_visitorpanel.txt": {
         "global_cache": false,
