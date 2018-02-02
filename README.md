@@ -5,9 +5,6 @@
 **Possibilities:**
 1. Shows the number of resources. (If XFRM is installed (Resource Manager));
 2. Shows reactions instead of sympathies. (If [TH] Reactions is set).
-
-**Docs:**
-![Widget](docs/widget.png)
 ## RU Description
 **Описание:** Виджет панели посетителя для XenForo 2.
 
