@@ -1,16 +1,18 @@
 # [SXF] VisitorPanel (EN Description)
-Description: Widget visitor panel for XenForo 2.
+**Description:** Widget visitor panel for XenForo 2.
 
-Possibilities:
+**Possibilities:**
 1. Shows the number of resources. (If XFRM is installed (Resource Manager));
 2. Shows reactions instead of sympathies. (If [TH] Reactions is set).
 
-Docs: ![Widget](docs/widget.png)
+**Docs:**
+![Widget](docs/widget.png)
 # [SXF] VisitorPanel (RU Description)
-Описание: Виджет панели посетителя для XenForo 2.
+**Описание:** Виджет панели посетителя для XenForo 2.
 
-Вожможности:
+**Вожможности:**
 1. Показывает кол-во ресурсов. (Если установлен XFRM (Ресусрс Менеджер));
 2. Показывает реакции вместо симпатий. (Если установлен [TH] Reactions).
 
-Документация: ![Виджет](docs/widget.png)
+**Документация:**
+![Виджет](docs/widget.png)
