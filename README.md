@@ -19,5 +19,4 @@
 5. Можно изменить форума аватара (Круглый, Квадратный).
 
 ## Gallery
-![Widget](docs/widget.png)
-![Options Style](docs/style_options.png)
+![Widget](docs/widget.png)![Options Style](docs/style_options.png)
