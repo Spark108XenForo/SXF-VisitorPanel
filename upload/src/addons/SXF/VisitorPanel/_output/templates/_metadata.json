@@ -1,0 +1,12 @@
+{
+    "public/sxf_visitor_panel.html": {
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "cc7988ad681b71a6aaf072a8887313d2"
+    },
+    "public/sxf_visitor_panel.less": {
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "27adb9db75fe641c379b34a7b75d2836"
+    }
+}

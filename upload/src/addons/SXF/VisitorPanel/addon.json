@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "SXF/VisitorPanel",
+    "title": "[SXF] VisitorPanel",
+    "description": "VisitorPanel Widget.",
+    "version_id": 1000000,
+    "version_string": "1.0.0",
+    "dev": "Spark108",
+    "dev_url": "",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-fa"
+}

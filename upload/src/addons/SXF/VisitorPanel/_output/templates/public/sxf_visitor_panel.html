@@ -1,0 +1,68 @@
+<xf:css src="sxf_visitor_panel.less" />
+
+<xf:set var="$user" value="{$xf.visitor}" />
+
+<xf:if is="$user">
+	<div class="sxf-visitor-panel">
+		<div class="visitor">
+            <div class="cover"></div>
+            <div class="contentRow-figure">
+                <xf:avatar user="{$user}" size="l" href="" notooltip="true" update="{{ link('account/avatar', $user) }}" />
+            </div>
+            <h3 class="contentRow-header"><xf:username user="$user" rich="true" notooltip="true" /></h3>
+            <div class="contentRow-lesser">
+                <xf:usertitle user="$user" />
+            </div>
+			<div class="contentRow-lesser">
+				<xf:if contentcheck="true">
+					<div class="memberHeader-banners">
+						<xf:contentcheck><xf:userbanners user="$user" /></xf:contentcheck>
+					</div>
+				</xf:if>
+			</div>
+            <xf:if is="$xf.app.userUpgradeCount AND !{{ $user.hasPermission('svpn_permission', 'svpn_upgrades_view') }} AND {$user.user_state} == 'valid'">
+                <div class="button-prem">
+                    <a href="{{ link('account/upgrades') }}" target="_blank"><span>{{ phrase('svpn_buy_premium') }}</span><span>{{ phrase('svpn_proceed_payment') }}</span></a>
+                </div>
+            </xf:if>
+        </div>
+        <div class="stats">
+ 				<div class="column">
+                	<div>{{ phrase('messages') }}</div>
+                	<div>{$user.message_count|number}</div>
+            	</div>
+				<div class="column">
+					<xf:if is="$xf.reactionTypes">
+						<div>{{ phrase('th_reactions') }}</div>
+						<div>
+							<xf:foreach loop="$xf.reactionTypes" key="$reactionTypeId" value="$reactionType">
+								<xf:set var="$rtTotal" value="{{ is_array($user.react_count.{$reactionTypeId}) ? count($user.react_count.{$reactionTypeId}) : $user.react_count.{$reactionTypeId} }}" />
+								<span data-xf-init="tooltip" title="{$reactionType.title}" class="reacts_total_text__reactionType reacts_total_text__reactionType--{$reactionTypeId}" style="color: {$reactionType.color}">
+									{$rtTotal|number}
+								</span>
+							</xf:foreach>
+						</div>
+					<xf:else />
+						<div>{{ phrase('likes') }}</div>
+						<div>{$user.like_count|number}</div>
+					</xf:if>
+            	</div>
+				<xf:if is="$xf.options.enableTrophies">
+            		<div class="column">
+                		<div>{{ phrase('trophy_points') }}</div>
+                		<div>{$user.trophy_points|number}</div>
+            		</div>
+				</xf:if>
+				<xf:if is="$user.canViewResources() && $user.xfrm_resource_count">
+					<div class="column">
+						<div>{{ phrase('xfrm_resources') }}</div>
+						<div>
+							<a href="{{ link('resources/authors', $user) }}" class="menu-fauxLinkRow-linkRow u-concealed">
+								{$user.xfrm_resource_count|number}
+							</a>
+						</div>
+					</div>
+				</xf:if>
+        </div>
+	</div>
+</xf:if>
